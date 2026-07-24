@@ -7,25 +7,23 @@
     "orientation": "portrait",
     "scheme": "gosomewhere",
     "userInterfaceStyle": "automatic",
-
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.gosomewhere.app"
+      "bundleIdentifier": "com.gosomewhere.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
-
     "android": {
       "package": "com.gosomewhere.app"
     },
-
     "plugins": [
       "expo-router",
       "expo-dev-client"
     ],
-
     "experiments": {
       "typedRoutes": true
     },
-
     "extra": {
       "eas": {
         "projectId": "87bb148f-c9e1-4452-b06e-4d0be96ecd49"
