@@ -1,0 +1,3 @@
+import { StyleSheet, Text, View } from 'react-native';
+export default function PassportScreen(){return <View style={s.screen}><Text style={s.icon}>◎</Text><Text style={s.title}>Your passport starts here.</Text><Text style={s.copy}>Complete an adventure to earn your first place stamp, photo memory, and distance milestone.</Text></View>}
+const s=StyleSheet.create({screen:{flex:1,backgroundColor:'#F5F0E6',alignItems:'center',justifyContent:'center',padding:32},icon:{fontSize:64,color:'#D86A33'},title:{fontSize:30,fontWeight:'800',color:'#17261E',textAlign:'center',marginTop:14},copy:{fontSize:16,lineHeight:24,color:'#606761',textAlign:'center',marginTop:12}});
