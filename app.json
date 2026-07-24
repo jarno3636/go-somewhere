@@ -6,7 +6,6 @@
     "orientation": "portrait",
     "scheme": "gosomewhere",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.gosomewhere.app"
@@ -14,7 +13,10 @@
     "android": {
       "package": "com.gosomewhere.app"
     },
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router",
+      "expo-dev-client"
+    ],
     "experiments": {
       "typedRoutes": true
     }
