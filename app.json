@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Go Somewhere",
+    "slug": "go-somewhere",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "gosomewhere",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gosomewhere.app"
+    },
+    "android": {
+      "package": "com.gosomewhere.app"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
